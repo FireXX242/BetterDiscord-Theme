@@ -1,7 +1,7 @@
 /**
  * @name RainbowText
  * @description Text becomes a rainbow of colors.
- * @version 1.0.1
+ * @version 1.0.2
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/RainbowText.theme.css
  */
 
@@ -21,7 +21,8 @@
 .text-3S7XCz,
 .item-3XjbnG,
 .colorStandard-21JIj7,
-.roleColor-nA7BqX {
+.roleColor-nA7BqX,
+.name-3Vmqxm {
   animation: rainbow1 3s linear 0s infinite normal;
 }
 @keyframes rainbow1 {
