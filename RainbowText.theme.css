@@ -1,7 +1,7 @@
 /**
  * @name RainbowText
  * @description Text becomes a rainbow of colors.
- * @version 1.0.2
+ * @version 1.0.3
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/RainbowText.theme.css
  */
 
@@ -22,7 +22,21 @@
 .item-3XjbnG,
 .colorStandard-21JIj7,
 .roleColor-nA7BqX,
-.name-3Vmqxm {
+.name-3Vmqxm,
+.guildNameText-jBFbNC,
+.name-28HaxV,
+.goalText-1XeSVA,
+.membersGroup-2eiWxl,
+.contents-3ca1mk,
+.heading-2w-1WC,
+.title-1yyp9V,
+.size14-3fJ-ot,
+.title-2dsDLn,
+.header-2Kx1US,
+.colorMuted-20987_,
+.colorMuted-HdFt4q,
+.bd-name,
+.bd-description {
   animation: rainbow1 3s linear 0s infinite normal;
 }
 @keyframes rainbow1 {
