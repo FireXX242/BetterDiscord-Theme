@@ -1,7 +1,7 @@
 /**
  * @name RainbowText
  * @description Text becomes a rainbow of colors.
- * @version 1.0.3
+ * @version 1.0.4
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/RainbowText.theme.css
  */
 
@@ -36,7 +36,22 @@
 .colorMuted-20987_,
 .colorMuted-HdFt4q,
 .bd-name,
-.bd-description {
+.bd-description,
+.defaultKeybindGroupHeader-2dEFA2,
+.tooltipContent-Nejnvh,
+.sprite-2lxwfc,
+.colorHeaderSecondary-g5teka,
+.label-2gNW3x,
+.accountCreditDescription-1lEaJI,
+.cardText-3dmnX6,
+.planInfo-3eXANS,
+.sectionDescription-2ealM1,
+.emptyStateHeader-2qdbzr,
+.emptyStateSubtext-1nMe5m,
+.codeRedemptionRedirect-3SBiCp,
+.subEnabledTitle-2MHkAH,
+.scrollbarGhostHairline-2LpzZ9,
+.downloadSection-20OayS{
   animation: rainbow1 3s linear 0s infinite normal;
 }
 @keyframes rainbow1 {
