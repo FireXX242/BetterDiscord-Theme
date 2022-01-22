@@ -1,22 +1,21 @@
 /**
  * @name IconChanger
  * @description Change all icons.
- * @version 1.0.2
+ * @version 1.0.3
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/IconChanger.theme.css
  */
 
- .wrapper-3kah-n > .acronym-2zrAHN {
-  background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png");
-  background-size: cover;
-  color: transparent;
-}
 .wrapper-3kah-n,
 .avatarStack-3vfSFa,
-.contents-2MsGLg > img {
+.contents-2MsGLg > img,
+.repliedMessage-3Z6XBG > img {
   content: url("https://saenai-movie.com/shared/img/character/c03_main.png");
 }
 
-.icon-1zKOXL, .avatarContainer-3FF_Km, .avatarUploaderInner-yEhTv5 {
+.icon-1zKOXL,
+.avatarContainer-3FF_Km,
+.avatarUploaderInner-yEhTv5,
+.wrapper-3kah-n > .acronym-2zrAHN {
   background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png") !important;
   background-size: cover;
   color: transparent;
