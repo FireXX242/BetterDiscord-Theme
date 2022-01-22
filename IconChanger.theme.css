@@ -1,14 +1,15 @@
 /**
  * @name IconChanger
  * @description Change all icons.
- * @version 1.0.3
+ * @version 1.0.4
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/IconChanger.theme.css
  */
 
 .wrapper-3kah-n,
 .avatarStack-3vfSFa,
 .contents-2MsGLg > img,
-.repliedMessage-3Z6XBG > img {
+.repliedMessage-3Z6XBG > img,
+.avatar-2slV0S{
   content: url("https://saenai-movie.com/shared/img/character/c03_main.png");
 }
 
