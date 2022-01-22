@@ -5,7 +5,7 @@
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/IconChanger.theme.css
  */
 
-.wrapper-3kah-n > .acronym-2zrAHN {
+ .wrapper-3kah-n > .acronym-2zrAHN {
   background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png");
   background-size: cover;
   color: transparent;
@@ -16,7 +16,7 @@
   content: url("https://saenai-movie.com/shared/img/character/c03_main.png");
 }
 
-.icon-1zKOXL {
+.icon-1zKOXL, .avatarContainer-3FF_Km {
   background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png") !important;
   background-size: cover;
   color: transparent;
