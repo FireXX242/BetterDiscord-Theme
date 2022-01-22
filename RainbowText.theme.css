@@ -13,7 +13,6 @@
 .headerTagDiscriminatorNoNickname-dfcvHa,
 .discriminator-2m-MqL,
 .subtext-2HDqJ7,
-.placeholder-1_mJY1,
 .title-17SveM,
 .name-3Uvkvr,
 .nickname-t08Mck,
@@ -21,11 +20,11 @@
 .text-3S7XCz,
 .item-3XjbnG,
 .colorStandard-21JIj7 {
-  animation: rainbow 3s linear 0s infinite normal;
+  animation: rainbow1 3s linear 0s infinite normal;
 }
-@keyframes rainbow {
+@keyframes rainbow1 {
   0% {
-    color: #ff0000;
+    color: #ff000080;
   }
   12% {
     color: #ffbf00;
@@ -50,5 +49,38 @@
   }
   100% {
     color: #ff0000;
+  }
+}
+
+.placeholder-1_mJY1 {
+  animation: rainbow2 3s linear 0s infinite normal;
+}
+@keyframes rainbow2 {
+  0% {
+    color: #ff000050;
+  }
+  12% {
+    color: #ffbf0050;
+  }
+  25% {
+    color: #80ff0050;
+  }
+  37% {
+    color: #00ff4050;
+  }
+  50% {
+    color: #00ffff50;
+  }
+  62% {
+    color: #0040ff50;
+  }
+  75% {
+    color: #8000ff50;
+  }
+  87% {
+    color: #eb34bd50;
+  }
+  100% {
+    color: #ff000050;
   }
 }
