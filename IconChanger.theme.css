@@ -1,7 +1,7 @@
 /**
  * @name IconChanger
  * @description Change all icons.
- * @version 1.0.1
+ * @version 1.0.2
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/IconChanger.theme.css
  */
 
@@ -16,7 +16,7 @@
   content: url("https://saenai-movie.com/shared/img/character/c03_main.png");
 }
 
-.icon-1zKOXL, .avatarContainer-3FF_Km {
+.icon-1zKOXL, .avatarContainer-3FF_Km, .avatarUploaderInner-yEhTv5 {
   background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png") !important;
   background-size: cover;
   color: transparent;
