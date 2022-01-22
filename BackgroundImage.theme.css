@@ -1,0 +1,15 @@
+/**
+ * @name BackgroundImage
+ * @description Display the image in the background.
+ * @version 1.0.0
+ */
+
+:root {
+  --background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png");
+  --opacity: 0.95;
+}
+
+:root {
+  background: var(--background-image) center/cover no-repeat;
+  opacity: var(--opacity);
+}

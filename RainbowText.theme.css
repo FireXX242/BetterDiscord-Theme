@@ -1,0 +1,54 @@
+/**
+ * @name RainbowText
+ * @description Text becomes a rainbow of colors.
+ * @version 1.0.0
+ */
+
+.username-h_Y3Us,
+.markup-eYLPri,
+.title-338goq,
+.channelName-3KPsGw,
+.overflow-1wOqNV,
+.username-3JLfHz,
+.headerTagDiscriminatorNoNickname-dfcvHa,
+.discriminator-2m-MqL,
+.subtext-2HDqJ7,
+.placeholder-1_mJY1,
+.title-17SveM,
+.name-3Uvkvr,
+.nickname-t08Mck,
+.colorHeaderPrimary-jN_yGr,
+.text-3S7XCz,
+.item-3XjbnG,
+.colorStandard-21JIj7 {
+  animation: rainbow 3s linear 0s infinite normal;
+}
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  12% {
+    color: #ffbf00;
+  }
+  25% {
+    color: #80ff00;
+  }
+  37% {
+    color: #00ff40;
+  }
+  50% {
+    color: #00ffff;
+  }
+  62% {
+    color: #0040ff;
+  }
+  75% {
+    color: #8000ff;
+  }
+  87% {
+    color: #eb34bd;
+  }
+  100% {
+    color: #ff0000;
+  }
+}

@@ -1,0 +1,22 @@
+/**
+ * @name IconChanger
+ * @description Change all icons.
+ * @version 1.0.0
+ */
+
+.wrapper-3kah-n > .acronym-2zrAHN {
+  background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png");
+  background-size: cover;
+  color: transparent;
+}
+.wrapper-3kah-n,
+.avatarStack-3vfSFa,
+.contents-2MsGLg > img {
+  content: url("https://saenai-movie.com/shared/img/character/c03_main.png");
+}
+
+.icon-1zKOXL {
+  background-image: url("https://saenai-movie.com/shared/img/character/c03_main.png") !important;
+  background-size: cover;
+  color: transparent;
+}
