@@ -13,12 +13,12 @@ A theme for Discord.
 
 ## [BackgroundImage](https://github.com/FireXX242/BetterDiscord-Theme/blob/main/BackgroundImage.theme.css)
 
-![BackgroundImage](https://cdn.discordapp.com/attachments/934592390407270424/934592886522126366/unknown.png)
+![unknown](https://user-images.githubusercontent.com/90991524/150659961-92ab0905-a3ba-4243-bdfd-aff9e33b7b2a.png)
 
 ## [IconChanger](https://github.com/FireXX242/BetterDiscord-Theme/blob/main/IconChanger.theme.css)
 
-![BackgroundImage](https://cdn.discordapp.com/attachments/934592390407270424/934595437552345088/unknown.gif)
+![unknown](https://user-images.githubusercontent.com/90991524/150659977-aa97b95e-8bfc-45ee-8b7d-8f802f0a70bf.gif)
 
 ## [RainbowText](https://github.com/FireXX242/BetterDiscord-Theme/blob/main/RainbowText.theme.css)
 
-![BackgroundImage](https://cdn.discordapp.com/attachments/934592390407270424/934599648855851009/unknown.gif)
+![unknown](https://user-images.githubusercontent.com/90991524/150659992-3db2b9aa-32b2-4e49-b955-9e244675df32.gif)
