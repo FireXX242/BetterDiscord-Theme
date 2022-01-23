@@ -1,0 +1,19 @@
+/**
+ * @name SpinIcon
+ * @description The icon will rotate.
+ * @version 1.0.0
+ * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/SpinIcon.theme.css
+ * @invite gvNZzBxshm
+ */
+
+.avatar-2e8lTP {
+  animation: spin 2s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
