@@ -1,147 +1,146 @@
 /**
  * @name DarkDiscord
  * @description Dark theme throughout.
- * @version 1.0.0
+ * @version 1.0.1
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/DarkDiscord.theme.css
  * @invite gvNZzBxshm
  */
 
-.theme-dark {
-    --background-primary: #000;
-    --background-secondary: #202020;
-    --background-secondary-alt: #000;
-    --background-tertiary: #000;
+ .theme-dark {
+  --background-primary: #000;
+  --background-secondary: #202020;
+  --background-secondary-alt: #000;
+  --background-tertiary: #000;
+}
+
+.peopleColumn-1wMU14,
+.scroller-3j5xK2 {
+  background-color: #000;
+}
+
+#friends,
+.theme-dark .search-l1Wz-Q,
+.theme-dark .chat,
+.theme-dark .channels-Ie2l6A,
+.theme-dark .container-2Thooq {
+  background: rgba(0, 0, 0, 0) !important;
+}
+.avatarSpeaking-2pCGrZ {
+  animation: rainbow 3s linear 0s infinite normal;
+}
+.border-2BJQjd.speaking-3RWJBr {
+  animation: rainbow 3s linear 0s infinite normal;
+}
+.avatarSpeaking-33RRJU {
+  animation: rainbow 3s linear 0s infinite normal;
+}
+.speaking-3K28iH {
+  animation: rainbow 3s linear 0s infinite normal;
+}
+@keyframes rainbow {
+  0% {
+    box-shadow: inset 0 0 0 2px #ff0000,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  
-  .peopleColumn-1wMU14,
-  .scroller-3j5xK2 {
-    background-color: #000;
+  12% {
+    box-shadow: inset 0 0 0 2px #ffbf00,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  
-  #friends,
-  .theme-dark .search-l1Wz-Q,
-  .theme-dark .chat,
-  .theme-dark .channels-Ie2l6A,
-  .theme-dark .container-2Thooq {
-    background: rgba(0, 0, 0, 0) !important;
+  25% {
+    box-shadow: inset 0 0 0 2px #80ff00,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  .avatarSpeaking-2pCGrZ {
-    animation: rainbow 3s linear 0s infinite normal;
+  37% {
+    box-shadow: inset 0 0 0 2px #00ff40,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  .border-2BJQjd.speaking-3RWJBr {
-    animation: rainbow 3s linear 0s infinite normal;
+  50% {
+    box-shadow: inset 0 0 0 2px #00ffff,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  .avatarSpeaking-33RRJU {
-    animation: rainbow 3s linear 0s infinite normal;
+  62% {
+    box-shadow: inset 0 0 0 2px #0040ff,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  .speaking-3K28iH {
-    animation: rainbow 3s linear 0s infinite normal;
+  75% {
+    box-shadow: inset 0 0 0 2px #8000ff,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  @keyframes rainbow {
-    0% {
-      box-shadow: inset 0 0 0 2px #ff0000,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    12% {
-      box-shadow: inset 0 0 0 2px #ffbf00,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    25% {
-      box-shadow: inset 0 0 0 2px #80ff00,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    37% {
-      box-shadow: inset 0 0 0 2px #00ff40,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    50% {
-      box-shadow: inset 0 0 0 2px #00ffff,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    62% {
-      box-shadow: inset 0 0 0 2px #0040ff,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    75% {
-      box-shadow: inset 0 0 0 2px #8000ff,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    87% {
-      box-shadow: inset 0 0 0 2px #eb34bd,
-        inset 0 0 0 3px var(--background-secondary);
-    }
-    100% {
-      box-shadow: inset 0 0 0 2px #ff0000,
-        inset 0 0 0 3px var(--background-secondary);
-    }
+  87% {
+    box-shadow: inset 0 0 0 2px #eb34bd,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  html .mention.wrapper-1ZcZW-.mention.interactive,
-  .title-338goq {
-    background-image: linear-gradient(
-      to left,
-      rgb(51, 255, 0),
-      rgb(255, 230, 0),
-      red,
-      rgb(234, 0, 255),
-      rgb(0, 140, 255),
-      rgb(51, 255, 0)
-    );
-    animation: gradient-border 3s linear infinite;
-    background-size: 400% 100%;
-    color: transparent !important;
-    -webkit-background-clip: text;
-    position: relative;
-    z-index: 1;
+  100% {
+    box-shadow: inset 0 0 0 2px #ff0000,
+      inset 0 0 0 3px var(--background-secondary);
   }
-  @keyframes gradient-border {
-    from {
-      background-position: 0 0;
-    }
-    to {
-      background-position: 130% 0;
-    }
+}
+html .mention.wrapper-1ZcZW-.mention.interactive,
+.title-338goq {
+  background-image: linear-gradient(
+    to left,
+    rgb(51, 255, 0),
+    rgb(255, 230, 0),
+    red,
+    rgb(234, 0, 255),
+    rgb(0, 140, 255),
+    rgb(51, 255, 0)
+  );
+  animation: gradient-border 3s linear infinite;
+  background-size: 400% 100%;
+  color: transparent !important;
+  -webkit-background-clip: text;
+  position: relative;
+  z-index: 1;
+}
+@keyframes gradient-border {
+  from {
+    background-position: 0 0;
   }
-  :root {
-    --reply-color: 255, 0, 0;
+  to {
+    background-position: 130% 0;
   }
-  .title-338goq {
-    font-size: 0;
-  }
-  .title-338goq:after {
-    font-size: 15px;
-    content: "BetterDiscord";
-  }
-  .subtext-2HDqJ7 {
-    display: none;
-  }
-  .wordmarkWindows-2dq6rw::after {
-    content: "BetterDiscord";
-    display: block;
-    font-size: 9pt;
-    font-weight: 800;
-    font-family: "Source Code Pro";
-  }
-  .wordmarkWindows-2dq6rw > svg {
-    display: none;
-  }
-  .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
-    opacity: 0% !important;
-    width: 0px;
-    transition: all 0.2s ease-in-out;
-  }
-  .panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
-    opacity: 100% !important;
-    width: 32px;
-  }
-  
-  .channelIcon-3I2O7O {
-    display: none;
-  }
-  
-  .iconMention-3WxjBe::before {
-    content: "#";
-  }
-  
-  .appMount-2yBXZl .iconMention-3WxjBe {
-    padding-left: 2px;
-  }
+}
+:root {
+  --reply-color: 255, 0, 0;
+}
+.title-338goq {
+  font-size: 0;
+}
+.title-338goq:after {
+  font-size: 13px;
+  content: "BetterDiscord";
+}
+.container-YkUktl .subtext-2HDqJ7 {
+  display: none;
+}
+.wordmarkWindows-2dq6rw::after {
+  content: "BetterDiscord";
+  display: block;
+  font-size: 9pt;
+  font-weight: 800;
+  font-family: "Source Code Pro";
+}
+.wordmarkWindows-2dq6rw > svg {
+  display: none;
+}
+.channelIcon-3I2O7O {
+  display: none;
+}
+
+.iconMention-3WxjBe::before {
+  content: "#";
+}
+
+.appMount-2yBXZl .iconMention-3WxjBe {
+  padding-left: 2px;
+}
+
+.toolbar-3_r2xA > .anchor-1MIwyf {
+  display: none;
+}
+
+.separator-2wx7h6,
+.separator-1So4YB {
+  background-color: aquamarine;
+}
