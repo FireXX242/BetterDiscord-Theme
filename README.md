@@ -26,3 +26,7 @@ A theme for Discord.
 ## [SpinIcon](https://github.com/FireXX242/BetterDiscord-Theme/blob/main/SpinIcon.theme.css)
 
 ![unknown](https://user-images.githubusercontent.com/90991524/150673349-30e985a3-137e-4625-9021-626af31cf43e.gif)
+
+## [DarkDiscord](https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/DarkDiscord.theme.css)
+
+![unknown](https://user-images.githubusercontent.com/90991524/150710558-02dad7df-abd0-4f34-89ca-78f66e8496b9.png)
