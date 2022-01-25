@@ -1,9 +1,12 @@
 /**
  * @name DarkDiscord
  * @description Dark theme throughout.
- * @version 1.0.1
+ * @version 1.0.2
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/DarkDiscord.theme.css
+ * @updateUrl https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/DarkDiscord.theme.css
  * @invite gvNZzBxshm
+ * @author FireXX0001
+ * @authorId 880437087294353448
  */
 
  .theme-dark {
@@ -18,13 +21,6 @@
   background-color: #000;
 }
 
-#friends,
-.theme-dark .search-l1Wz-Q,
-.theme-dark .chat,
-.theme-dark .channels-Ie2l6A,
-.theme-dark .container-2Thooq {
-  background: rgba(0, 0, 0, 0) !important;
-}
 .avatarSpeaking-2pCGrZ {
   animation: rainbow 3s linear 0s infinite normal;
 }
@@ -111,7 +107,10 @@ html .mention.wrapper-1ZcZW-.mention.interactive,
   font-size: 13px;
   content: "BetterDiscord";
 }
-.container-YkUktl .subtext-2HDqJ7 {
+.container-YkUktl .subtext-2HDqJ7,
+.channelIcon-3I2O7O,
+.wordmarkWindows-2dq6rw > svg,
+.toolbar-3_r2xA > .anchor-1MIwyf {
   display: none;
 }
 .wordmarkWindows-2dq6rw::after {
@@ -120,12 +119,6 @@ html .mention.wrapper-1ZcZW-.mention.interactive,
   font-size: 9pt;
   font-weight: 800;
   font-family: "Source Code Pro";
-}
-.wordmarkWindows-2dq6rw > svg {
-  display: none;
-}
-.channelIcon-3I2O7O {
-  display: none;
 }
 
 .iconMention-3WxjBe::before {
@@ -136,11 +129,8 @@ html .mention.wrapper-1ZcZW-.mention.interactive,
   padding-left: 2px;
 }
 
-.toolbar-3_r2xA > .anchor-1MIwyf {
-  display: none;
-}
-
 .separator-2wx7h6,
-.separator-1So4YB {
+.separator-1So4YB,
+.divider-IqmEqJ {
   background-color: aquamarine;
 }
