@@ -5,7 +5,7 @@ A theme for Discord.
 ## Usage
 
 1. Install [BetterDiscord](https://betterdiscord.app/).
-2. Download and unzip [Themes](https://github.com/NightfallGT/Discord-Raider-Pro/archive/refs/heads/main.zip).
+2. Download and unzip [Themes](https://github.com/FireXX242/BetterDiscord-Theme/archive/refs/heads/main.zip).
 3. Put the .css in ```%appdata%\BetterDiscord\themes```
 4. Open Discord and go to Themes in Settings.
 5. Press the button to activate the theme.
