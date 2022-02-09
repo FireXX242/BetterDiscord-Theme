@@ -1,7 +1,7 @@
 /**
  * @name DarkDiscord
  * @description Dark theme throughout.
- * @version 1.0.2
+ * @version 1.0.3
  * @source https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/DarkDiscord.theme.css
  * @updateUrl https://raw.githubusercontent.com/FireXX242/BetterDiscord-Theme/main/DarkDiscord.theme.css
  * @invite gvNZzBxshm
@@ -72,7 +72,7 @@
   }
 }
 html .mention.wrapper-1ZcZW-.mention.interactive,
-.title-338goq {
+.usernameContainer-3PPkWq > .title-338goq {
   background-image: linear-gradient(
     to left,
     rgb(51, 255, 0),
@@ -100,10 +100,10 @@ html .mention.wrapper-1ZcZW-.mention.interactive,
 :root {
   --reply-color: 255, 0, 0;
 }
-.title-338goq {
+.usernameContainer-3PPkWq > .title-338goq {
   font-size: 0;
 }
-.title-338goq:after {
+.usernameContainer-3PPkWq > .title-338goq:after {
   font-size: 13px;
   content: "BetterDiscord";
 }
